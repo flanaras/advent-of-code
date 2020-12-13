@@ -48,3 +48,40 @@ class VulnerabilityChecker(
     }
 
 }
+
+class XMasVulnerabilityExploiter(
+    private val numbers: List<BigInteger>
+) {
+
+    private lateinit var slidingWindow: List<BigInteger>
+    fun exploit(requiredSum: BigInteger): Weakness {
+        (0..numbers.size).forEach { i ->
+            (i..numbers.size).forEach { j ->
+
+                slidingWindow = numbers.subList(i, j)
+                val windowSum = slidingWindow.sumOf { it }
+
+                if (windowSum == requiredSum) {
+                    return toWeakness()
+                }
+            }
+
+        }
+
+        TODO()
+    }
+
+    private fun toWeakness(): Weakness {
+        val windowMin = slidingWindow.minOf { it }
+        val windowMax = slidingWindow.maxOf { it }
+        return Weakness(windowMin, windowMax)
+    }
+
+    data class Weakness(
+        val smallest: BigInteger,
+        val biggest: BigInteger
+    )
+
+}
+
+fun XMasVulnerabilityExploiter.Weakness.computeSum() = smallest + biggest
