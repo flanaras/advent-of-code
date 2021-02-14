@@ -24,7 +24,7 @@ A list each individual day along side with any comments
 - [ ] [day 18](https://adventofcode.com/2020/day/18)
 - [ ] [day 19](https://adventofcode.com/2020/day/19)
 - [ ] [day 20](https://adventofcode.com/2020/day/20)
-- [ ] [day 21](https://adventofcode.com/2020/day/21)
+- [x] [day 21](https://adventofcode.com/2020/day/21)
 - [x] [day 22](https://adventofcode.com/2020/day/22)
 - [ ] [day 23](https://adventofcode.com/2020/day/23)
 - [ ] [day 24](https://adventofcode.com/2020/day/24)
