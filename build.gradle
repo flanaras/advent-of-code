@@ -1,10 +1,8 @@
 plugins {
     id 'java'
-    id 'org.jetbrains.kotlin.jvm' version '1.4.20'
+    id "org.jetbrains.kotlin.jvm" version "1.6.0"
     id 'application'
 }
-
-mainClassName = 'd07.Main'
 
 group 'advent-of-code.flanaras.io'
 version '1.0-SNAPSHOT'
@@ -14,15 +12,15 @@ repositories {
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib"
-    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter', version: '5.7.0'
-    testCompile group: 'org.assertj', name: 'assertj-core', version: '3.18.1'
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.6.0'
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter', version: '5.8.2'
+    testImplementation group: 'org.assertj', name: 'assertj-core', version: '3.21.0'
 }
 
 
 compileKotlin {
     kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_11
+        jvmTarget = JavaVersion.VERSION_17
     }
 }
 
