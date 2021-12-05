@@ -1,8 +1,8 @@
-# Advent of code 2020
-My own solutions for [Advent of Code 2020](https://adventofcode.com/2020).
+# Advent of code
+My own solutions for [Advent of Code](https://adventofcode.com).
 
-## Puzzles
-A list each individual day along side with any comments
+## 2020 Puzzles
+A list for each day alongside with any comments
 
 - [ ] [day 01](https://adventofcode.com/2020/day/1)
 - [ ] [day 02](https://adventofcode.com/2020/day/2)
