@@ -5,7 +5,7 @@ My own solutions for [Advent of Code](https://adventofcode.com).
 A list for each day alongside with any comments
 
 - [x] [day 01](https://adventofcode.com/2020/day/1)
-- [ ] [day 02](https://adventofcode.com/2020/day/2)
+- [x] [day 02](https://adventofcode.com/2020/day/2) (visitor pattern)
 - [ ] [day 03](https://adventofcode.com/2020/day/3)
 - [ ] [day 04](https://adventofcode.com/2020/day/4)
 - [ ] [day 05](https://adventofcode.com/2020/day/5)
